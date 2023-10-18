@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex2 jQuery</title>
+  </head>
+  <body>
+    <h1>Exemplo 2 jQuery</h1>
+    <p>Meu primeiro parágrafo com jQuery</p>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        //comandos
+        //alert("Iniciando com jQuery");
+        $("p").on("click", function () {
+          alert("Clique no parágrafo");
+        });
+      });
+    </script>
+  </body>
+</html>

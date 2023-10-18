@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex3 jQuery</title>
+  </head>
+  <body>
+    <h1>Exemplo 3 jQuery</h1>
+    <p>jQuery é uma biblioteca</p>
+    <p>jQuery é de código aberto e livre para usar</p>
+    <p>jQuery aumenta a produtividade de um projeto</p>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+      $(document).ready(() => {
+        $("p").on("click", () => {
+          alert("clique parágrafo");
+        });
+      });
+    </script>
+  </body>
+</html>
