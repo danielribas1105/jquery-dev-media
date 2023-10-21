@@ -1,8 +1,85 @@
-.btn .icone,
-.btn .contador {
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: purple;
+    font: "Helvetica Neue", Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.btn {
+    background: #fff;
+    border-radius: 7px;
+    border: purple solid 3px;
+    float: left;
+    font: normal 14px/1.6 "Helvetica Neue", Arial, sans-serif;
+    height: 100px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.btn .icone {
     float: left;
     line-height: 32px;
     text-align: center;
     user-select: none;
-    width: 50%;
+    border-right: purple solid 3px;
+    background-color: purple;
+}
+
+.btn .icone:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.btn .contador {
+    display: flex;
+    float: left;
+    line-height: 32px;
+    text-align: center;
+    user-select: none;
+    align-items: center;
+}
+
+.btn .contador:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.btn .icone img {
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    margin: 15px;
+}
+
+.btn .icone span {
+    text-align: center;
+    width: 32px;
+}
+
+.btn .icone p {
+    position: relative;
+    top: 150px;
+}
+
+.btn .contador {
+    color: purple;
+    font-weight: 400;
+    font-size: 50px;
+    margin: 33px;
+}
+
+#quantidade {
+    border: 1px solid #0984ff;
+    width: 120px;
+}
+
+#quantidade .icone,
+#quantidade .contador {
+    width: 33.333%
+}
+
+#quantidade .contador {
+    background: #0984ff;
+    color: #fff;
 }
